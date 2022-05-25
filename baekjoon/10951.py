@@ -1,0 +1,12 @@
+# Problem 10951
+
+import sys
+
+
+while True:
+    try:
+        A, B = map(int, input().split())
+        print(A+B)
+        
+    except:
+        break
